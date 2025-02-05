@@ -1,0 +1,548 @@
+*{
+    color: aliceblue;
+    
+}
+a{
+    color: aliceblue;
+}
+
+body{
+    background-color: #050F30;
+    height: cover;
+}
+
+
+@font-face {
+  font-family: 'Kanit';
+  src: local('Kanit'), url('./fonts/Kanit-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fontKanit{
+  font-family: 'Kanit';
+ }  
+
+
+ @font-face {
+  font-family: 'anallop';
+  src: local('anallop'), url('./fonts/anallop.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fontanallop{
+  font-family: 'anallop';
+ }  
+
+
+ @font-face {
+  font-family: 'Matiz';
+  src: local('Matiz'), url('./fonts/Matiz.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fontMatiz{
+  font-family: 'Matiz';
+ }  
+
+
+ @font-face {
+  font-family: 'reinfals';
+  src: local('reinfals'), url('./fonts/reinfals.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fontreinfals{
+  font-family: 'reinfals';
+ }  
+ 
+
+
+ @font-face {
+  font-family: 'Southern';
+  src: local('Southern'), url('./fonts/southern-lights-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.fontSouthern{
+  font-family: 'Southern';
+ }  
+
+
+ @font-face {
+  font-family: 'Hollister';
+  src: local('Hollister'), url('./fonts/ckhans-fonts-hoolister-medium-demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.fontHollister{
+  font-family: 'Hollister';
+ }  
+
+
+
+.divBody{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+
+.divBody2{
+  display:contents;
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+
+.titulos{
+ color: #48a1d9;
+}
+
+.titulosInicio{
+    -webkit-text-stroke: 0.1px skyblue;
+    font-weight: bold; 
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+  }
+}
+
+.effect-sub-titulo {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+
+
+
+
+
+  .logo{
+    height: 16vh;
+    width: 32vh;
+  }
+
+  .logouhlelo{
+    object-fit: contain;
+    border-radius: 15px;
+  }
+
+  hr {
+    width: 100%;
+    border: 2px solid aliceblue; 
+  }
+
+
+  .bordaExperiencia {
+    border: 1px solid aliceblue; 
+    border-radius: 15px;
+  }
+
+  .iconesDasSkill{
+    width: 3em;
+    height: 3em;
+  }
+
+
+
+
+
+
+  .iconesWhatsapp{
+    width: 5em;
+    height: 5em;
+    color: #25D366;
+    fill: #25D366!important;  
+  }
+
+  .botaoWpp { 
+    position: fixed;
+    bottom: 2em; 
+    right: 2em; 
+    background-color: transparent;
+    border: 0;
+    align-items: center;
+    transition: transform 0.5s;
+    cursor: pointer;
+    z-index: 1000; 
+  }
+  
+  .botaoWpp:hover {
+    transform: scale(1.2); 
+  }
+
+
+
+
+  .botaoRedes { 
+    background-color: transparent;
+    border: 0;
+    align-items: center;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+  
+  .botaoRedes:hover {
+    transform: scale(1.2); 
+  }
+
+
+  .iconeRedes{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    fill: #fff!important;  
+  }
+
+
+  .iconeLinkedin{
+    width: 40px;
+    height: 40px;
+    color: #0077b5;
+    fill: #0077b5!important;  
+  }
+
+  .iconeInsta{
+    width: 40px;
+    height: 40px;
+    color: #E4405F;
+    fill: #E4405F!important;  
+  }
+
+
+  /* From Uiverse.io by asgardOP       https://uiverse.io/asgardOP/smart-skunk-78*/ 
+.buttonRedesSociais {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+.buttonRedesSociais svg {
+  color: white;
+  width: 30px;
+  height: 30px;
+  z-index: 9;
+}
+
+.buttonRedesSociais:nth-child(2) {
+  background: rgb(69, 187, 255);
+}
+
+.buttonRedesSociais:nth-child(3) {
+  background: gray;
+}
+
+.buttonRedesSociais:nth-child(6) {
+  background: rgb(218, 16, 16);
+}
+
+.buttonRedesSociais:active {
+  transform: scale(0.85);
+}
+
+.buttonRedesSociais::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-color: #050F30;
+  border-radius: 50px;
+  z-index: -1;
+  border: 0px solid rgba(255, 255, 255, 0.411);
+  transition: 0.4s;
+}
+
+.buttonRedesSociais:hover::before {
+  width: 0px;
+  height: 0px;
+}
+
+
+/* From Uiverse.io by Botwe-Felix5820    https://uiverse.io/Botwe-Felix5820/nasty-deer-97*/ 
+.botaoContato {
+  height: 3em;
+  width: 12em;
+  border: none;
+  border-radius: 10em;
+  background: #016DD9;
+  font-size: 17px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+ }
+ 
+ .botaoContato:hover {
+  animation: shake3856 0.3s linear infinite both;
+ }
+ 
+ @keyframes shake3856 {
+  0% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ 
+  20% {
+   -webkit-transform: translate(-2px, 2px);
+   transform: translate(-2px, 2px);
+  }
+ 
+  40% {
+   -webkit-transform: translate(-2px, -2px);
+   transform: translate(-2px, -2px);
+  }
+ 
+  60% {
+   -webkit-transform: translate(2px, 2px);
+   transform: translate(2px, 2px);
+  }
+ 
+  80% {
+   -webkit-transform: translate(2px, -2px);
+   transform: translate(2px, -2px);
+  }
+ 
+  100% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ }
+
+
+
+ /* From Uiverse.io by gharsh11032000  https://uiverse.io/gharsh11032000/selfish-owl-57*/ 
+.card {
+  position: relative;
+  width: 25em;
+  height: 15em;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 1px skyblue;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1px 1px skyblue;
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color:transparent;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  backdrop-filter: blur(30px);
+
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 2em; 
+  color: skyblue; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+  letter-spacing: 0.05em; 
+  text-shadow: 2px 2px 8px white, 
+               0 0 10px blue; 
+  background: blue; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: white; 
+  animation: fadeIn 1.5s ease-in-out; 
+}
+
+/* Adicionando uma animação para um efeito ainda mais sofisticado */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.4;
+}
+
+
+.card__footer {
+  margin: 10px 0 0;
+  font-size: 1em;
+  color: white;
+  line-height: 1.4;
+}
+
+.contato-a{
+  font-size: 2vh;
+  text-decoration: none; 
+}
+
+@media (max-width: 1008px) {
+  .contato-a{
+    font-size: 1.5vh;
+    
+  }
+
+  .logo{
+    height: 100px;
+    width: 200px;
+  }
+
+  hr {
+    width: 80%;
+    border: 1.5px solid aliceblue; 
+  }
+
+  .card {
+    position: relative;
+    width: 24em;
+    height: 15em;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100px;
+    box-shadow: 0 0 0 1px skyblue;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .iconesWhatsapp{
+    width: 4em;
+    height: 4em;
+    color: #25D366;
+    fill: #25D366!important;  
+  }
+
+
+h1 {
+  font-size: 1.4em;  
+}
+
+h2 {
+    font-size: 1.3em;  
+}
+
+h3 {
+    font-size: 1.2em;  
+}
+
+h4 {
+    font-size: 1em;  
+}
+
+h5 {
+    font-size: 0.9em;  
+}
+
+h6 {
+    font-size: 0.7em;  
+}
+
+
+  
+}
+
+
+
+ 
+
+@keyframes go-back {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .DivSkills {
+    animation: go-back 1s ease-in-out forwards;
+  }
+}
+
+
+.active-link a {
+  color: #007bff; /* Azul brilhante */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  text-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+}
+
+
+.scriptcase{
+  color: #fff important;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

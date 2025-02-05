@@ -1,0 +1,45 @@
+.background-inicio {
+    background-image: url('../../imagens/background.jpg'); 
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height:100vh; 
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+  }
+
+  @keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+@keyframes erase {
+    0% { width: 100%; }
+    100% { width: 0; }
+}
+
+
+#text {
+    display: inline-block;
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: typing 4s steps(50) infinite, erase 2s steps(40) infinite; 
+    font-size: 4rem; 
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    #text {
+        display: inline-block;
+        overflow: hidden; 
+        white-space: nowrap; 
+        animation: typing 4s steps(50) infinite, erase 2s steps(40) infinite; 
+        font-size: 2rem; 
+        font-weight: bold;
+    }
+}

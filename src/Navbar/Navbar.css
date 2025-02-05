@@ -1,0 +1,57 @@
+.corDaNavbar{
+    background: #00061A;
+    height: 100%;
+    position:fixed;
+    flex-direction: column;  
+}
+
+
+.foto{
+    height: 12em;
+    width: 8em;
+    border-radius: 100px;
+    box-shadow: 0 8px 16px rgba(27, 107, 255);
+    margin-top: 5em;
+    margin-bottom: 3em;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .corDaNavbar {
+        position: relative;
+        flex-direction: row;
+        background: #050F30;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* Permitir que os itens da navbar quebrem para a linha seguinte se necessário */
+    }
+
+    .corDaNavbar ul {
+        display: flex;
+        flex-direction:row;
+        padding-left: 0;
+        justify-content: center; 
+        flex-wrap:wrap; 
+        width: 100%; 
+    }
+
+    .corDaNavbar ul li {
+        padding: 2px 3px;
+        margin: 3px; 
+        text-align: center; 
+    }
+
+    .foto {
+        height: 6em; 
+        width: 4em; 
+        border-radius: 100px;
+        box-shadow: 0 4px 8px rgba(27, 107, 255);
+        margin-bottom: 7px; 
+        margin-top: 1em;
+    }
+}
+
+
