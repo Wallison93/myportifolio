@@ -387,7 +387,7 @@ body{
   text-shadow: 2px 2px 8px white, 
                0 0 10px blue; 
   background: blue; 
-  -webkit-background-clip: text; 
+ /*  -webkit-background-clip: text;  */
   -webkit-text-fill-color: white; 
   animation: fadeIn 1.5s ease-in-out; 
 }
