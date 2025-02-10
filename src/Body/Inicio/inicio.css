@@ -19,27 +19,25 @@
 @keyframes erase {
     0% { width: 100%; }
     100% { width: 0; }
-}
+} 
+
+
 
 
 #text {
     display: inline-block;
     overflow: hidden; 
     white-space: nowrap; 
-    animation: typing 4s steps(50) infinite, erase 2s steps(40) infinite; 
+    animation: typing 2s steps(20) infinite alternate-reverse; 
     font-size: 4rem; 
     font-weight: bold;
 }
 
 
 
+
 @media (max-width: 768px) {
     #text {
-        display: inline-block;
-        overflow: hidden; 
-        white-space: nowrap; 
-        animation: typing 4s steps(50) infinite, erase 2s steps(40) infinite; 
-        font-size: 2rem; 
-        font-weight: bold;
+        font-size: 1.8rem; 
     }
 }
