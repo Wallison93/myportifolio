@@ -423,6 +423,13 @@ body{
   line-height: 1.4;
 }
 
+.card__footer-site {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  color: rgb(248, 176, 239);
+  line-height: 1.4;
+}
+
 .contato-a{
   font-size: 2vh;
   text-decoration: none; 
