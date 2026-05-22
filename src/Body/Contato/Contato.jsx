@@ -9,6 +9,8 @@ import { FaGithub } from "react-icons/fa";
 
 
 export default function Contato() {
+  const anoAtual = new Date().getFullYear();
+
     const irParaWhatsapp = () => {
         window.open(
           "https://api.whatsapp.com/send?phone=5531989212039&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento!", "_blank"
@@ -85,7 +87,7 @@ return (
    </div>
 
 <br/><br/>
-   <a className="contato-a">Copyright © 2025 à <strong>Wallison Guedes</strong>. Todos os direitos reservados.</a>
+  <a className="contato-a">Copyright © {anoAtual} à <strong>Wallison Guedes</strong>. Todos os direitos reservados.</a>
    <br/>
     <button onClick={()=>irParaWhatsapp()} className='botaoWpp'> 
         <RiWhatsappFill  className="iconesWhatsapp"/>

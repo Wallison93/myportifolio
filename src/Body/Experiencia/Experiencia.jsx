@@ -19,15 +19,20 @@ return (
             </div>
             <div className='col-md-8 mt-4 container'>
                 <h3 className='text-center'>
-                    Desenvolvedor Full-Stack
+                    uHLelo Tecnologia (Autônomo)
                 </h3>
-                <h5 className='mt-5 '>
-                    Ingressei na <strong>uHLelo Tecnologia</strong> em janeiro de 2025, onde estou tendo a oportunidade de me envolver mais com o back-end, tendo como foco o Scriptcase frameWork de PHP, mas também usando o React em pontualidades. Desenvolvemos sistemas, API's e integradores. Além de estar incluido em projetos mobile utilizando React-Native.
-                </h5>
+                <h5 className='mt-3 text-center'>Desenvolvedor de Software Full Stack | jan/2025 - atual</h5>
+
+                <ul className='mt-4 text-start'>
+                    <li>Desenvolvimento e manutenção de soluções web e mobile com React, React Native, Node.js e PHP.</li>
+                    <li>Criação e evolução de APIs REST para integração entre app mobile, painel web e serviços externos.</li>
+                    <li>Implementação de segurança com JWT, bcrypt e controle de sessão por dispositivo.</li>
+                    <li>Entrega de fluxos com upload/processamento de arquivos e automações com OCR/IA.</li>
+                </ul>
             </div>
         </div>
         <h5 className='mt-5 text-center'>
-            Stacks:  PHP, Scriptcase, React, React Native, Javascript, MySQL, MariaDB, NodeJS.
+            Stacks: React, React Native, Node.js, Express, TypeScript, PHP, MySQL, JWT, bcrypt.
         </h5>
     </div>
 
@@ -38,17 +43,26 @@ return (
             </div>
             <div className='col-md-8 text-center mt-4 container'>
                 <h3>
-                    Desenvolvedor Full-Stack
+                    SH Company Technology S.A.
                 </h3>
-                <h5 className='mt-5'>
-                    Desde Fevereiro de 2022 faço parte da <strong>SH Company Technology</strong>, onde tive a oportunidade de iniciar minha trajetória e colocar em prática meus aprendizados.
-                </h5>
+                <h5 className='mt-3'>Desenvolvedor Full Stack | 2022 - atual</h5>
+
+                <ul className='mt-4 text-start'>
+                    <li>Desenvolvimento e manutenção do sistema Geo+ para gestão empresarial.</li>
+                    <li>Atuação em projetos web e mobile com foco em estabilidade, usabilidade e performance.</li>
+                    <li>Integração e sustentação de APIs RESTful para fluxo confiável e consistente de dados.</li>
+                    <li>Colaboração contínua com áreas técnicas e de negócio para evolução do produto.</li>
+                </ul>
             </div>
         </div>
         <h5 className='mt-5 text-center'>
-            Stacks:  React, React Native, Javascript, Typescript, PHP, VB.Net, MySQL, NodeJS, Figma.
+            Stacks: React, React Native, JavaScript, TypeScript, PHP, MySQL, Node.js, APIs REST, Figma.
         </h5>
     </div>
+
+    <h5 className='mt-5 text-center container'>
+        Objetivo: atuar em oportunidades de Front-end, Back-end ou Full Stack, entregando soluções com foco em performance, qualidade de código e resultado de negócio.
+    </h5>
 
     <br/>
     <hr/>
