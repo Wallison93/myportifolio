@@ -5,6 +5,24 @@ import './Portifolio.css';
 
 const projetos = [
     {
+        titulo: 'EVON Strategies',
+        descricao: 'Plataforma web para gestao de trades com dashboard analitico, comparacao de estrategias, calendario de resultados e recursos para mentor-aluno.',
+        stacks: 'React, Vite',
+        imagem: 'https://evonstrategies.com/logo.png',
+        alt: 'Logo EVON Strategies',
+        link: 'https://evonstrategies.com/',
+        linkTexto: 'evonstrategies.com'
+    },
+    {
+        titulo: 'Pedra Menina',
+        descricao: 'Site institucional da Mineracao Pedra Menina, com apresentacao da empresa, unidade operacional, informacoes ambientais, localizacao e area de contato.',
+        stacks: 'React, Vite',
+        imagem: 'https://pedramenina.com.br/assets/logo-navbar-C5V4FYDh.webp',
+        alt: 'Logo Pedra Menina',
+        link: 'https://pedramenina.com.br/',
+        linkTexto: 'pedramenina.com.br'
+    },
+    {
         titulo: 'Geo+',
         descricao: 'Um completo software de aplicacao real desenvolvido sob medida para uma grande multinacional portuguesa.',
         stacks: 'React, JS, NodeJS, Bootstrap, MySQL, PHP, GoogleCharts',
