@@ -1,9 +1,26 @@
 import Geo from '../../imagens/Geo+.png';
 import PortifolioSH from '../../imagens/PortifolioSH.png';
 import DudaGomes from '../../imagens/portifolioEduardaGomes.png';
+import HoldLogo from '../../imagens/HoldLogo.png';
 import './Portifolio.css';
 
 const projetos = [
+    {
+        titulo: 'App HOLD',
+        descricao: 'Aplicativo mobile para operacao de transportes pesados, com fluxo de servicos, historico de cargas, atualizacao de viagem, evidencias e notificacoes para motoristas.',
+        stacks: 'Frontend: React Native, Expo Router, TypeScript, Axios | Backend: Node.js, Express, MySQL2, JWT, Multer, Google Vision, Gemini, Tesseract',
+        imagem: HoldLogo,
+        alt: 'Logo do App HOLD'
+    },
+    {
+        titulo: 'Cartao Saude SISGEN',
+        descricao: 'Sistema web de gestao do Cartao Saude com controle de acesso, painel administrativo, cadastro de titulares/dependentes, uploads e relatorios operacionais.',
+        stacks: 'Frontend: React, Vite, React Router, Axios, React Toastify, jsPDF, XLSX | Backend: PHP, MySQL (mysqli), PDO (dblib/SQL Server), Smalot PDFParser',
+        imagem: 'https://sisgen.fmrtecnologia.com.br:34593/cartaosaude/assets/logo_todos_saude-BF1sgVEu.png',
+        alt: 'Logo Todos Saude',
+        link: 'https://sisgen.fmrtecnologia.com.br:34593/cartaosaude/',
+        linkTexto: 'sisgen.fmrtecnologia.com.br/cartaosaude'
+    },
     {
         titulo: 'EVON Strategies',
         descricao: 'Plataforma web para gestao de trades com dashboard analitico, comparacao de estrategias, calendario de resultados e recursos para mentor-aluno.',
