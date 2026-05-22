@@ -46,13 +46,13 @@ const projetos = [
         imagem: Geo,
         alt: 'Geo+'
     },
-    {
+  /*   {
         titulo: 'Portifolio SH',
         descricao: 'Portifolio da empresa SH Company Technology Ltda.',
         stacks: 'React, JS, Bootstrap, EmailJS',
         imagem: PortifolioSH,
         alt: 'Portifolio SH'
-    },
+    }, */
     {
         titulo: 'Portifolio Eduarda Gomes',
         descricao: 'Site profissional, altamente responsivo, da modelo Eduarda Gomes.',
